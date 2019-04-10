@@ -10,8 +10,8 @@
 #include "JuceHeader.h"
 #include "PluginProcessor.h"
 
-#include "UI/GraphicKnob.h"
-#include "UI/Led.h"
+#include "ui/GraphicKnob.h"
+#include "ui/Led.h"
 
 //--------------------------------------------------------------------------------------------------
 
