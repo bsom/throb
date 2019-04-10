@@ -26,6 +26,10 @@ if(${CMAKE_PROJECT_NAME} STREQUAL ${PROJECT_NAME})
   include( cmake/colors.cmake )
 endif()
 
+if(UNIX AND NOT APPLE)
+  add_definitions( -D__cdecl= )
+endif()
+
 set_directory_properties( PROPERTIES
   COMPILE_DEFINITIONS         NDEBUG
   COMPILE_DEFINITIONS_DEBUG   DEBUG
