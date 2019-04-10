@@ -112,6 +112,8 @@ include_directories(
   ${PROJECT_BINARY_DIR}
   ${PROJECT_SOURCE_DIR}
   ${PROJECT_ROOT_DIR}/support/JuceLibraryCode
+  /usr/include/freetype2
+  /usr/include/freetype2/freetype
 )
 
 set( ALL_SOURCES ${UI_SOURCES} ${PLUGIN_SOURCES} )
